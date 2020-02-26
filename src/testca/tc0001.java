@@ -31,8 +31,8 @@ public class tc0001 {
 		
 		driver.get("https://www.edureka.co/");
 		driver.findElement(By.linkText("Log In")).click();
-		driver.findElement(By.id("si_popup_email")).sendKeys("tulikagetsmails@gmail.com");
-		driver.findElement(By.id("si_popup_passwd")).sendKeys("123456789");
+		driver.findElement(By.id("si_popup_email")).sendKeys("");
+		driver.findElement(By.id("si_popup_passwd")).sendKeys("");
 		driver.findElement(By.xpath("//button[@class='clik_btn_log btn-block']")).click();
 
 	}
